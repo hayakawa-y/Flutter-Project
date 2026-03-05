@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
     final email = (_authBox.get('currentEmail') ?? '').toString().trim();
     if (email.contains('@')) return email.split('@').first;
 
-    return 'User';
+    return 'currentName';
   }
 
   Future<void> _signOut(BuildContext context) async {

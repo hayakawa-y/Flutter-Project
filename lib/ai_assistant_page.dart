@@ -43,7 +43,7 @@ class _AiAssistantPageState extends State<AiAssistantPage>
   // ===== Gemini config =====
   // flutter run --dart-define=GEMINI_API_KEY=xxxx
   // ===== Gemini config =====
-  static const String _apiKey = 'AIzaSyBbkBPnZFxFkU3IZEeH0jVztmkZuC5wK1g';
+  static const String _apiKey = 'AIzaSyA6iAhYCFQ4D384Gmfa8-vqS6tQyGtiAro';
   static const String _model = 'gemini-2.5-flash';
 
   static final Uri _endpoint = Uri.parse(
